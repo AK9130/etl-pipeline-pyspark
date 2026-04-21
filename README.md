@@ -3,6 +3,31 @@
 ## Project Overview
 This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline using PySpark to process retail transaction data.
 
+## Project Structure 
+```
+.
+├── data_sets
+│   └── online_retail_transactions
+│       └── online_retail.csv
+├── docs
+│   ├── architecture.md
+│   ├── project_documentation.md
+│   └── screenshots
+│       ├── architecture.png
+│       ├── raw_data.png
+│       └── transformed_data.png
+├── output
+│   └── retail_data
+│       ├── part-00000-2e2d31e7-e6ef-49d1-ac99-20dd945867c5-c000.snappy.parquet
+│       ├── part-00001-2e2d31e7-e6ef-49d1-ac99-20dd945867c5-c000.snappy.parquet
+│       ├── part-00002-2e2d31e7-e6ef-49d1-ac99-20dd945867c5-c000.snappy.parquet
+│       ├── part-00003-2e2d31e7-e6ef-49d1-ac99-20dd945867c5-c000.snappy.parquet
+│       ├── part-00004-2e2d31e7-e6ef-49d1-ac99-20dd945867c5-c000.snappy.parquet
+│       └── _SUCCESS
+├── README.md
+└── spark_script
+    └── etl_pipeline.py
+```
 ## Dataset
 online_retail_II.csv
 
