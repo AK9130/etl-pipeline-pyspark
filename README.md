@@ -46,7 +46,7 @@ Data is extracted from a CSV dataset using PySpark.
 The transformed data is stored in Parquet format for efficient storage and querying.
 
 ## Architecture
-![Architecture](docs/screenshots/architecture.png)
+![Architecture](architecture.png)
 
 ## Sample Data
 
