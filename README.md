@@ -29,7 +29,7 @@ This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline 
     └── etl_pipeline.py
 ```
 ## Dataset
-online_retail_II.csv
+online_retail.csv
 
 ## ETL Steps
 
