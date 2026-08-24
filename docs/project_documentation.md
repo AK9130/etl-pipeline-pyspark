@@ -1,4 +1,4 @@
-# ETL Data Pipeline using Python + Spark
+# ETL Data Pipeline using PySpark
 
 ## Project Overview
 This project demonstrates an ETL pipeline using PySpark.
