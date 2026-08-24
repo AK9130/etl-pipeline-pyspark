@@ -1,4 +1,4 @@
-# ETL Data Pipeline using Python + Spark
+# ETL Data Pipeline using PySpark
 
 ## Project Overview
 This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline using PySpark to process retail transaction data.
