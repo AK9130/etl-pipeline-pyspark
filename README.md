@@ -5,8 +5,8 @@ The pipeline reads retail transaction data from a CSV file, cleans and transform
 
 ## 2. Problem Statement
 Raw retail transaction data can contain missing values and invalid records. Before analysis or further processing, the data needs to be cleaned and transformed into a structured format.
-The objective of this project is to build a PySpark ETL pipeline that:
 
+The objective of this project is to build a PySpark ETL pipeline that:
 - Extracts data from a CSV file
 - Removes null values
 - Filters invalid Quantity and Price values
@@ -91,12 +91,6 @@ total_price = Quantity × Price
 
 9. Display the transformed data.
 10. Write the transformed data in Parquet format to HDFS.
-
-The main PySpark script is:
-
-```text
-spark_script/etl_pipeline.py
-```
 
 ## 7. My Role
 I worked on the complete ETL pipeline, including:
