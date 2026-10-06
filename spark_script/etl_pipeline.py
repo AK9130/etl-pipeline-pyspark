@@ -4,7 +4,8 @@ from pyspark.sql.functions import col, to_timestamp
 spark = SparkSession.builder.appName("ETL_Pipeline").getOrCreate()
 
 input_path = "file:///home/aaqib/PROJECTS/3_ETL_Pipeline_PySpark/data_sets/online_retail_transactions/online_retail.csv"
-output_path = "file:///home/aaqib/PROJECTS/3_ETL_Pipeline_PySpark/output/retail_data"
+output_path = "hdfs:///user/aaqib/output_projects/3_etl_pipeline/retail_data"
+
 
 df = spark.read.csv(input_path, header=True, inferSchema=True)
 print("Data Loaded")
